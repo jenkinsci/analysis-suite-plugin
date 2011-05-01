@@ -12,6 +12,7 @@ mvn install
 
 cd ../
 cp */target/*.hpi $HUDSON_HOME/plugins
+cp findbugs/plugin/target/*.hpi $HUDSON_HOME/plugins
 
 cd $HUDSON_HOME
 java -jar jenkins.war
