@@ -8,7 +8,7 @@ rm -rf $HUDSON_HOME/plugins/pmd*
 rm -rf $HUDSON_HOME/plugins/tasks*
 rm -rf $HUDSON_HOME/plugins/warnings*
 
-mvn install
+mvn install || { echo "Build failed"; exit 1; }
 
 cd ../
 cp */target/*.hpi $HUDSON_HOME/plugins
