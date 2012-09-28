@@ -8,7 +8,7 @@ rm -rf $JENKINS_HOME/plugins/pmd*
 rm -rf $JENKINS_HOME/plugins/tasks*
 rm -rf $JENKINS_HOME/plugins/warnings*
 
-mvn install || { echo "Build failed"; exit 1; }
+mvn clean install || { echo "Build failed"; exit 1; }
 
 cd ../
 cp */target/*.hpi $JENKINS_HOME/plugins
