@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/analysis-collector" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/analysis-config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/analysis-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/analysis-pom" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/analysis-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/checkstyle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dry" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/findbugs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pmd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tasks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/warnings" vcs="Git" />
+  </component>
+</project>
+
