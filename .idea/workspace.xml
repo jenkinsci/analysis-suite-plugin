@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="193897e5-a7d1-41fe-9bdb-6b281c3c8cbe" name="Default" comment="" />
+    <list default="true" id="193897e5-a7d1-41fe-9bdb-6b281c3c8cbe" name="Default" comment="Update of submodules.&#10;&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;# On branch master&#10;# Your branch is up-to-date with 'origin/master'.&#10;#&#10;# Changes to be committed:&#10;#&#9;modified:   analysis-core&#10;#&#9;modified:   checkstyle&#10;#&#9;modified:   dry&#10;#&#9;modified:   findbugs&#10;#&#9;modified:   go.sh&#10;#&#9;modified:   warnings&#10;#&#10;# Changes not staged for commit:&#10;#&#9;modified:   analysis-collector (untracked content)&#10;#&#9;modified:   analysis-pom (untracked content)&#10;#&#9;modified:   analysis-test (untracked content)&#10;#&#9;modified:   checkstyle (untracked content)&#10;#&#9;modified:   dry (untracked content)&#10;#&#9;modified:   findbugs (untracked content)&#10;#&#9;modified:   pmd (untracked content)&#10;#&#9;modified:   tasks (untracked content)&#10;#&#9;modified:   warnings (untracked content)&#10;#&#10;# Untracked files:&#10;#&#9;.idea/.name&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/encodings.xml&#10;#&#9;.idea/libraries/&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/modules.xml&#10;#&#9;.idea/qaplug_profiles.xml&#10;#&#9;.idea/scopes/&#10;#&#9;.idea/vcs.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;analysis-suite.iml&#10;#&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkstyle" afterPath="$PROJECT_DIR$/checkstyle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkstyle/src/main/java/hudson/plugins/checkstyle/rules/CheckStyleRules.java" afterPath="$PROJECT_DIR$/checkstyle/src/main/java/hudson/plugins/checkstyle/rules/CheckStyleRules.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/SaxSetup.java" afterPath="$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/SaxSetup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/WarningsPublisher.java" afterPath="$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/WarningsPublisher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="analysis-suite.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,74 +76,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WarningsPublisher.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SaxSetup.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/SaxSetup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="29" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WarningsPublisher.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/WarningsPublisher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="323" column="38" selection-start="12870" selection-end="12870" vertical-scroll-proportion="0.0" vertical-offset="5491" max-vertical-offset="8619">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DynamicParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/parser/DynamicParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="21" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="901">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DynamicDocumentParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/parser/DynamicDocumentParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="901">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroovyExpressionMatcher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/parser/GroovyExpressionMatcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="29" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1785">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckStyleRules.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/checkstyle/src/main/java/hudson/plugins/checkstyle/rules/CheckStyleRules.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="210" selection-start="2257" selection-end="2257" vertical-scroll-proportion="0.07600596" vertical-offset="799" max-vertical-offset="2210">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroovyParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/GroovyParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="13" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="7072">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DynamicParserTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/warnings/src/test/java/hudson/plugins/warnings/parser/DynamicParserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="5" selection-start="2602" selection-end="2602" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2652">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="issue12280.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/warnings/src/test/resources/hudson/plugins/warnings/parser/issue12280.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <folding />
+            <state line="453" column="42" selection-start="18708" selection-end="18708" vertical-scroll-proportion="0.77451974" vertical-offset="6272" max-vertical-offset="7973">
+              <folding>
+                <element signature="e#20281#20305#0" expanded="true" />
+                <element signature="e#20418#20442#0" expanded="true" />
+                <element signature="e#20547#20571#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,7 +106,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/checkstyle" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/warnings" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -173,14 +130,15 @@
         <option value="$PROJECT_DIR$/findbugs/plugin/src/main/java/hudson/plugins/findbugs/FindBugsPlugin.java" />
         <option value="$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/core/ParserResult.java" />
         <option value="$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/core/FilesParser.java" />
-        <option value="$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/WarningsPublisher.java" />
-        <option value="$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/SaxSetup.java" />
         <option value="$PROJECT_DIR$/findbugs/plugin/src/test/java/hudson/plugins/findbugs/parser/FindBugsParserTest.java" />
         <option value="$PROJECT_DIR$/analysis-core/src/test/java/hudson/plugins/analysis/core/ParserResultTest.java" />
         <option value="$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/parser/DynamicDocumentParser.java" />
         <option value="$PROJECT_DIR$/warnings/src/test/java/hudson/plugins/warnings/parser/DynamicParserTest.java" />
         <option value="$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/parser/DynamicParser.java" />
         <option value="$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/parser/GroovyExpressionMatcher.java" />
+        <option value="$PROJECT_DIR$/checkstyle/src/main/java/hudson/plugins/checkstyle/rules/CheckStyleRules.java" />
+        <option value="$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/SaxSetup.java" />
+        <option value="$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/WarningsPublisher.java" />
       </list>
     </option>
   </component>
@@ -359,13 +317,13 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="analysis-suite" />
+              <option name="myItemId" value="Static Analysis Plug-ins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="analysis-suite" />
+              <option name="myItemId" value="Static Analysis Plug-ins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -375,7 +333,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="analysis-suite" />
+              <option name="myItemId" value="Static Analysis Plug-ins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -383,13 +341,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="checkstyle" />
+              <option name="myItemId" value="warnings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="analysis-suite" />
+              <option name="myItemId" value="Static Analysis Plug-ins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -397,7 +355,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="checkstyle" />
+              <option name="myItemId" value="warnings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -407,7 +365,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="analysis-suite" />
+              <option name="myItemId" value="Static Analysis Plug-ins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -415,7 +373,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="checkstyle" />
+              <option name="myItemId" value="warnings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -429,7 +387,63 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Static Analysis Plug-ins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="analysis-suite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="warnings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Static Analysis Plug-ins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analysis-suite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="warnings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="warnings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Static Analysis Plug-ins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -438,6 +452,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="checkstyle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Static Analysis Plug-ins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analysis-suite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analysis-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Static Analysis Plug-ins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analysis-suite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analysis-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Static Analysis Plug-ins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analysis-suite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analysis-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Static Analysis Plug-ins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analysis-suite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analysis-core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -455,7 +537,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="analysis-suite" />
+              <option name="myItemId" value="Static Analysis Plug-ins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -463,7 +545,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="checkstyle" />
+              <option name="myItemId" value="analysis-core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -479,7 +561,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rules" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -503,7 +585,7 @@
     <property name="FullScreen" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="45" />
@@ -527,6 +609,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -802,7 +885,9 @@
       <workItem from="1391188332764" duration="120000" />
       <workItem from="1391196265078" duration="930000" />
       <workItem from="1391458185565" duration="395000" />
-      <workItem from="1391464950339" duration="59000" />
+      <workItem from="1391464950339" duration="861000" />
+      <workItem from="1391528300085" duration="467000" />
+      <workItem from="1391531471172" duration="1244000" />
     </task>
     <task id="LOCAL-00001" summary="Added plugins as submodules.">
       <created>1390402101729</created>
@@ -864,32 +949,33 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25588000" />
+    <option name="totallyTimeSpent" value="28101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Documentation" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25874636" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="100" y="100" width="2360" height="1240" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33898306" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33898306" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25686592" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270073" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25686592" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922953" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25655282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33868614" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28467155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922953" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25655282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33868614" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28467155" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270073" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -946,46 +1032,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/warnings/src/test/java/hudson/plugins/warnings/parser/ClangParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="33" selection-start="3244" selection-end="3244" vertical-scroll-proportion="0.36980107" vertical-offset="951" max-vertical-offset="2057" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/warnings/src/test/java/hudson/plugins/warnings/parser/DoxygenParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="88" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.33302838" vertical-offset="180" max-vertical-offset="3400" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/warnings/src/test/java/hudson/plugins/warnings/parser/Gcc4CompilerParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="239" column="33" selection-start="10007" selection-end="10007" vertical-scroll-proportion="0.7200366" vertical-offset="3123" max-vertical-offset="4216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/warnings/src/test/java/hudson/plugins/warnings/parser/ParserTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="35" selection-start="1732" selection-end="1732" vertical-scroll-proportion="0.33302838" vertical-offset="180" max-vertical-offset="2686" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/warnings/src/test/java/hudson/plugins/warnings/parser/PerlCriticParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="122" selection-start="2468" selection-end="2468" vertical-scroll-proportion="0.6157324" vertical-offset="390" max-vertical-offset="1496" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/parser/jcreport/JcReportModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="50" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.6455696" vertical-offset="0" max-vertical-offset="1106" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/TreeString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="32" selection-start="5629" selection-end="5629" vertical-scroll-proportion="0.7233273" vertical-offset="2192" max-vertical-offset="3298" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/model/AbstractAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="15" selection-start="3064" selection-end="3064" vertical-scroll-proportion="0.8761302" vertical-offset="0" max-vertical-offset="9639" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dry/src/main/java/hudson/plugins/dry/parser/dupfinder/DupFinderParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="97" column="64" selection-start="3828" selection-end="3828" vertical-scroll-proportion="1.2757685" vertical-offset="0" max-vertical-offset="2533" />
@@ -998,9 +1044,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/checkstyle/src/main/java/hudson/plugins/checkstyle/CheckStylePlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="314" selection-end="314" vertical-scroll-proportion="0.31954888" vertical-offset="0" max-vertical-offset="532">
-          <folding />
-        </state>
+        <state line="14" column="30" selection-start="314" selection-end="314" vertical-scroll-proportion="0.31954888" vertical-offset="0" max-vertical-offset="532" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dry/src/main/java/hudson/plugins/dry/parser/DuplicationParserRegistry.java">
@@ -1138,11 +1182,6 @@
         <state line="24" column="8" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/SaxSetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="134" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/analysis-core/src/test/java/hudson/plugins/analysis/core/BuildResultTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="13" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3145" />
@@ -1163,13 +1202,6 @@
         <state line="205" column="75" selection-start="8227" selection-end="8227" vertical-scroll-proportion="0.39749432" vertical-offset="2711" max-vertical-offset="8211" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/WarningsPublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="323" column="38" selection-start="12870" selection-end="12870" vertical-scroll-proportion="0.0" vertical-offset="4519" max-vertical-offset="7956">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/GroovyParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="13" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="6409">
@@ -1179,43 +1211,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/parser/DynamicDocumentParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
+        <state line="43" column="0" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/warnings/src/test/resources/hudson/plugins/warnings/parser/issue12280.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="865">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="865" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/warnings/src/test/java/hudson/plugins/warnings/parser/DynamicParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="5" selection-start="2602" selection-end="2602" vertical-scroll-proportion="0.0" vertical-offset="499" max-vertical-offset="2431">
-          <folding />
-        </state>
+        <state line="63" column="5" selection-start="2602" selection-end="2602" vertical-scroll-proportion="0.0" vertical-offset="499" max-vertical-offset="2431" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/parser/DynamicParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="21" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
+        <state line="43" column="21" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/parser/GroovyExpressionMatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="29" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="233" max-vertical-offset="1598">
-          <folding />
-        </state>
+        <state line="37" column="29" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="233" max-vertical-offset="1598" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/checkstyle/src/main/java/hudson/plugins/checkstyle/rules/CheckStyleRules.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="210" selection-start="2257" selection-end="2257" vertical-scroll-proportion="0.07600596" vertical-offset="799" max-vertical-offset="2210">
+        <state line="46" column="44" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.36736214" vertical-offset="0" max-vertical-offset="2210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warnings/warnings.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warnings/License.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/PluginLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="19" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2227">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/AbstractPackageDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="22" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/CategoryUrlBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/AreaRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/SaxSetup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="29" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warnings/src/main/java/hudson/plugins/warnings/WarningsPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="453" column="42" selection-start="18708" selection-end="18708" vertical-scroll-proportion="0.77451974" vertical-offset="6272" max-vertical-offset="7973">
+          <folding>
+            <element signature="e#20281#20305#0" expanded="true" />
+            <element signature="e#20418#20442#0" expanded="true" />
+            <element signature="e#20547#20571#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
