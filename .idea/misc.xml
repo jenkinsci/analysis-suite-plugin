@@ -16,7 +16,7 @@
     <option name="snInfluenceFormat" value="0" />
     <option name="snCheckCPP" value="true" />
     <option name="snCheckC" value="true" />
-    <option name="pathToUserRulesConfiguration" value="" />
+    <option name="pathToUserRulesConfiguration" value="$PROJECT_DIR$/analysis-config/etc/checkstyle-configuration.xml" />
     <option name="pathToJarWithRules" value="" />
   </component>
   <component name="EntryPointsManager">
@@ -24,9 +24,9 @@
   </component>
   <component name="FindBugsConfigurable">
     <option name="make" value="true" />
-    <option name="effort" value="default" />
-    <option name="priority" value="Medium" />
-    <option name="excludeFilter" value="" />
+    <option name="effort" value="max" />
+    <option name="priority" value="Low" />
+    <option name="excludeFilter" value="$PROJECT_DIR$/analysis-config/etc/findbugs-exclusion-filter.xml" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
