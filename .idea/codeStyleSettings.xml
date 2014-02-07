@@ -15,6 +15,21 @@
             <package name="javax.swing" withSubpackages="false" static="false" />
           </value>
         </option>
+        <option name="IMPORT_LAYOUT_TABLE">
+          <value>
+            <package name="javax" withSubpackages="true" static="false" />
+            <package name="java" withSubpackages="true" static="false" />
+            <emptyLine />
+            <package name="org" withSubpackages="true" static="false" />
+            <emptyLine />
+            <package name="com" withSubpackages="true" static="false" />
+            <emptyLine />
+            <package name="" withSubpackages="true" static="false" />
+            <package name="" withSubpackages="true" static="true" />
+            <emptyLine />
+            <package name="hudson" withSubpackages="true" static="false" />
+          </value>
+        </option>
         <option name="JD_DO_NOT_WRAP_ONE_LINE_COMMENTS" value="true" />
         <option name="WRAP_COMMENTS" value="true" />
         <XML>
