@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35c5c579-fe1e-4361-ab08-ebb366f40e35" name="Rejected commit: Default" comment="Fixed some warnings.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dry" afterPath="$PROJECT_DIR$/dry" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/model/AnnotationContainer.java" afterPath="$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/model/AnnotationContainer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/views/ConsoleDetail.java" afterPath="$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/views/ConsoleDetail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/core/ParserResult.java" afterPath="$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/core/ParserResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/SaxSetup.java" afterPath="$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/SaxSetup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/ToolTipBuilder.java" afterPath="$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/ToolTipBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis-config/etc/pmd-configuration.xml" afterPath="$PROJECT_DIR$/analysis-config/etc/pmd-configuration.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="analysis-suite.iws" />
@@ -1325,7 +1318,7 @@
       <workItem from="1391458185565" duration="395000" />
       <workItem from="1391464950339" duration="861000" />
       <workItem from="1391528300085" duration="467000" />
-      <workItem from="1391531471172" duration="9143000" />
+      <workItem from="1391531471172" duration="9175000" />
     </task>
     <task id="LOCAL-00001" summary="Added plugins as submodules.">
       <created>1390402101729</created>
@@ -1411,11 +1404,15 @@
       <created>1391794376051</created>
       <updated>1391794376051</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Fixed some warnings.">
+      <created>1391795459379</created>
+      <updated>1391795459379</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36000000" />
+    <option name="totallyTimeSpent" value="36032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
