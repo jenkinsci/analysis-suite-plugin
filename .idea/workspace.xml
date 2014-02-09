@@ -4,8 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35c5c579-fe1e-4361-ab08-ebb366f40e35" name="Rejected commit: Default" comment="Fixed some warnings.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis-core" afterPath="$PROJECT_DIR$/analysis-core" />
+    <list default="true" id="35c5c579-fe1e-4361-ab08-ebb366f40e35" name="Rejected commit: Default" comment="New version of release plugin.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis-config" afterPath="$PROJECT_DIR$/analysis-config" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis-config/pom.xml" afterPath="$PROJECT_DIR$/analysis-config/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -79,7 +79,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/analysis-config/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="24" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.64920074" vertical-offset="0" max-vertical-offset="1377">
+            <state line="42" column="9" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.634103" vertical-offset="0" max-vertical-offset="1292">
               <folding />
             </state>
           </provider>
@@ -1331,7 +1331,7 @@
       <workItem from="1391458185565" duration="395000" />
       <workItem from="1391464950339" duration="861000" />
       <workItem from="1391528300085" duration="467000" />
-      <workItem from="1391531471172" duration="9638000" />
+      <workItem from="1391531471172" duration="9713000" />
     </task>
     <task id="LOCAL-00001" summary="Added plugins as submodules.">
       <created>1390402101729</created>
@@ -1425,15 +1425,19 @@
       <created>1391795492191</created>
       <updated>1391795492191</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="New version of release plugin.">
+      <created>1391965157541</created>
+      <updated>1391965157541</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36495000" />
+    <option name="totallyTimeSpent" value="36570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Documentation" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15766424" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="100" y="100" width="2360" height="1240" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1454,7 +1458,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922953" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15131056" sideWeight="0.8578856" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15131056" sideWeight="0.8578856" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33835617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1510,7 +1514,8 @@
     <MESSAGE value="Fixed some warnings.&#10;" />
     <MESSAGE value="Introduced new base class for parsers based on Digester." />
     <MESSAGE value="Fixed some warnings." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed some warnings." />
+    <MESSAGE value="New version of release plugin." />
+    <option name="LAST_COMMIT_MESSAGE" value="New version of release plugin." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1889,7 +1894,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/analysis-config/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="24" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.64920074" vertical-offset="0" max-vertical-offset="1377">
+        <state line="42" column="9" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.634103" vertical-offset="0" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
