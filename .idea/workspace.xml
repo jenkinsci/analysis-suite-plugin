@@ -4,27 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35c5c579-fe1e-4361-ab08-ebb366f40e35" name="Rejected commit: Default" comment="Upgrade to new analysis-pom.">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_hudson_plugins_analysis_core_1_54.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_hudson_plugins_analysis_core_1_55.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis-collector" afterPath="$PROJECT_DIR$/analysis-collector" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis-core" afterPath="$PROJECT_DIR$/analysis-core" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis-test" afterPath="$PROJECT_DIR$/analysis-test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkstyle" afterPath="$PROJECT_DIR$/checkstyle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dry" afterPath="$PROJECT_DIR$/dry" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/findbugs" afterPath="$PROJECT_DIR$/findbugs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pmd" afterPath="$PROJECT_DIR$/pmd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks" afterPath="$PROJECT_DIR$/tasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warnings" afterPath="$PROJECT_DIR$/warnings" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis-collector/analysis-collector.iml" afterPath="$PROJECT_DIR$/analysis-collector/analysis-collector.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis-collector/pom.xml" afterPath="$PROJECT_DIR$/analysis-collector/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis-test/pom.xml" afterPath="$PROJECT_DIR$/analysis-test/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkstyle/pom.xml" afterPath="$PROJECT_DIR$/checkstyle/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dry/pom.xml" afterPath="$PROJECT_DIR$/dry/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/findbugs/pom.xml" afterPath="$PROJECT_DIR$/findbugs/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/findbugs/plugin/pom.xml" afterPath="$PROJECT_DIR$/findbugs/plugin/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pmd/pom.xml" afterPath="$PROJECT_DIR$/pmd/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/pom.xml" afterPath="$PROJECT_DIR$/tasks/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warnings/pom.xml" afterPath="$PROJECT_DIR$/warnings/pom.xml" />
+    <list default="true" id="35c5c579-fe1e-4361-ab08-ebb366f40e35" name="Rejected commit: Default" comment="Upgrade to new analysis-core.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="analysis-suite.iws" />
@@ -999,7 +979,7 @@
       <workItem from="1391464950339" duration="861000" />
       <workItem from="1391528300085" duration="467000" />
       <workItem from="1391531471172" duration="9839000" />
-      <workItem from="1392022497725" duration="1315000" />
+      <workItem from="1392022497725" duration="1341000" />
     </task>
     <task id="LOCAL-00001" summary="Added plugins as submodules.">
       <created>1390402101729</created>
@@ -1113,11 +1093,15 @@
       <created>1392024749997</created>
       <updated>1392024749997</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Upgrade to new analysis-core.">
+      <created>1392039245477</created>
+      <updated>1392039245477</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38011000" />
+    <option name="totallyTimeSpent" value="38037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -1202,7 +1186,8 @@
     <MESSAGE value="Fixed properties of release plugin." />
     <MESSAGE value="Added workaround for bug in mvn-release-plugin." />
     <MESSAGE value="Upgrade to new analysis-pom." />
-    <option name="LAST_COMMIT_MESSAGE" value="Upgrade to new analysis-pom." />
+    <MESSAGE value="Upgrade to new analysis-core." />
+    <option name="LAST_COMMIT_MESSAGE" value="Upgrade to new analysis-core." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1219,12 +1204,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dry/dry.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3553" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3553">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/checkstyle/checkstyle.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3553" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3553">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/checkstyle/.project">
@@ -1239,17 +1228,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/findbugs/plugin/findbugs.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3570" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3570">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/warnings/warnings.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/tasks.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3553" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3553">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pmd/License.txt">
@@ -1269,7 +1264,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/analysis-collector/analysis-collector.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3757" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3757">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/findbugs/library/.classpath">
@@ -1279,7 +1276,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pmd/pmd.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3638" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3638">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/analysis-collector/.gitignore">
