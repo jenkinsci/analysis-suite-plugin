@@ -46,6 +46,7 @@
       <module name="dry" target="1.5" />
       <module name="findbugs" target="1.5" />
       <module name="library" target="1.5" />
+      <module name="parent" target="1.5" />
       <module name="pmd" target="1.5" />
       <module name="tasks" target="1.5" />
       <module name="warnings" target="1.5" />
