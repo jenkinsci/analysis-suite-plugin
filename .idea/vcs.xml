@@ -13,6 +13,7 @@
     <mapping directory="$PROJECT_DIR$/pmd" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tasks" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/warnings" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../cobertura-plugin" vcs="Git" />
   </component>
 </project>
 

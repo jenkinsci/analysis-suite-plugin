@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/analysis-suite.iml" filepath="$PROJECT_DIR$/analysis-suite.iml" />
       <module fileurl="file://$PROJECT_DIR$/analysis-test/analysis-test.iml" filepath="$PROJECT_DIR$/analysis-test/analysis-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkstyle/checkstyle.iml" filepath="$PROJECT_DIR$/checkstyle/checkstyle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cobertura-plugin/cobertura.iml" filepath="$PROJECT_DIR$/../cobertura-plugin/cobertura.iml" />
       <module fileurl="file://$PROJECT_DIR$/dry/dry.iml" filepath="$PROJECT_DIR$/dry/dry.iml" />
       <module fileurl="file://$PROJECT_DIR$/findbugs/plugin/findbugs.iml" filepath="$PROJECT_DIR$/findbugs/plugin/findbugs.iml" />
       <module fileurl="file://$PROJECT_DIR$/findbugs/library/library.iml" filepath="$PROJECT_DIR$/findbugs/library/library.iml" />

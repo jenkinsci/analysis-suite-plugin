@@ -13,6 +13,8 @@
     <file url="file://$PROJECT_DIR$/pmd" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/tasks" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/warnings" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../cobertura-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cobertura-plugin/src/main/resources/hudson/plugins/cobertura/CoverageColumn/column.jelly" charset="ISO-8859-1" />
     <file url="PROJECT" charset="ISO-8859-1" />
   </component>
 </project>
