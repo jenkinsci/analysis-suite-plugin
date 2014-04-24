@@ -37,12 +37,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="acceptance-test-harness" target="1.7" />
       <module name="analysis-collector" target="1.5" />
       <module name="analysis-core" target="1.5" />
       <module name="analysis-pom" target="1.5" />
       <module name="analysis-suite" target="1.5" />
       <module name="analysis-test" target="1.5" />
       <module name="checkstyle" target="1.5" />
+      <module name="cobertura" target="1.5" />
       <module name="dry" target="1.5" />
       <module name="findbugs" target="1.5" />
       <module name="library" target="1.5" />
