@@ -14,5 +14,5 @@ Then you can build all plug-ins by running mvn install in the toplevel folder. T
 also an IntelliJ configuration committed that contains the coding style used in all of
 these projects.
 
-All plug-in are maintained by Ullrich Hafner. For more details please refer to the wiki
+All plug-ins are maintained by Ullrich Hafner. For more details please refer to the wiki
 page https://wiki.jenkins-ci.org/x/CwDgAQ.
