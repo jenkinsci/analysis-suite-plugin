@@ -37,19 +37,19 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="analysis-collector" target="1.5" />
-      <module name="analysis-core" target="1.5" />
-      <module name="analysis-pom" target="1.5" />
-      <module name="analysis-suite" target="1.5" />
-      <module name="analysis-test" target="1.5" />
-      <module name="checkstyle" target="1.5" />
-      <module name="dry" target="1.5" />
-      <module name="findbugs" target="1.5" />
-      <module name="library" target="1.5" />
-      <module name="parent" target="1.5" />
-      <module name="pmd" target="1.5" />
-      <module name="tasks" target="1.5" />
-      <module name="warnings" target="1.5" />
+      <module name="analysis-collector" target="1.6" />
+      <module name="analysis-core" target="1.6" />
+      <module name="analysis-pom" target="1.6" />
+      <module name="analysis-suite" target="1.6" />
+      <module name="analysis-test" target="1.6" />
+      <module name="checkstyle" target="1.6" />
+      <module name="dry" target="1.6" />
+      <module name="findbugs" target="1.6" />
+      <module name="library" target="1.6" />
+      <module name="parent" target="1.6" />
+      <module name="pmd" target="1.6" />
+      <module name="tasks" target="1.6" />
+      <module name="warnings" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
