@@ -27,6 +27,7 @@
         <module name="analysis-collector" />
         <module name="analysis-core" />
         <module name="analysis-model" />
+        <module name="analysis-runner" />
         <module name="analysis-test" />
         <module name="checkstyle" />
         <module name="dry" />
@@ -41,6 +42,7 @@
       <module name="analysis-collector" target="1.5" />
       <module name="analysis-core" target="1.5" />
       <module name="analysis-pom" target="1.5" />
+      <module name="analysis-runner" target="1.7" />
       <module name="analysis-suite" target="1.5" />
       <module name="analysis-test" target="1.5" />
       <module name="checkstyle" target="1.5" />
