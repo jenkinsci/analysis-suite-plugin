@@ -38,11 +38,11 @@
         <module name="warnings" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.6">
       <module name="analysis-collector" target="1.5" />
       <module name="analysis-core" target="1.5" />
       <module name="analysis-pom" target="1.5" />
-      <module name="analysis-runner" target="1.7" />
+      <module name="analysis-runner" target="1.6" />
       <module name="analysis-suite" target="1.5" />
       <module name="analysis-test" target="1.5" />
       <module name="checkstyle" target="1.5" />
