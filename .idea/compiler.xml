@@ -26,8 +26,6 @@
         <processorPath useClasspath="true" />
         <module name="analysis-collector" />
         <module name="analysis-core" />
-        <module name="analysis-model" />
-        <module name="analysis-runner" />
         <module name="analysis-test" />
         <module name="checkstyle" />
         <module name="dry" />
