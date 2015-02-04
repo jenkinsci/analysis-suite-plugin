@@ -24,6 +24,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="acceptance-test-harness" />
         <module name="analysis-collector" />
         <module name="analysis-core" />
         <module name="analysis-test" />
@@ -37,6 +38,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.6">
+      <module name="acceptance-test-harness" target="1.7" />
       <module name="analysis-collector" target="1.6" />
       <module name="analysis-core" target="1.6" />
       <module name="analysis-model" target="1.6" />

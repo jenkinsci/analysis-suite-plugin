@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../acceptance-test-harness/acceptance-test-harness.iml" filepath="$PROJECT_DIR$/../acceptance-test-harness/acceptance-test-harness.iml" />
       <module fileurl="file://$PROJECT_DIR$/analysis-collector/analysis-collector.iml" filepath="$PROJECT_DIR$/analysis-collector/analysis-collector.iml" />
       <module fileurl="file://$PROJECT_DIR$/analysis-core/analysis-core.iml" filepath="$PROJECT_DIR$/analysis-core/analysis-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/analysis-pom/analysis-pom.iml" filepath="$PROJECT_DIR$/analysis-pom/analysis-pom.iml" />
@@ -18,4 +19,3 @@
     </modules>
   </component>
 </project>
-
