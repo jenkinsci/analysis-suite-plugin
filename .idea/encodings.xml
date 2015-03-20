@@ -12,7 +12,20 @@
     <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/Singleton.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/factory" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/factory/Ast.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/factory/AstFactory.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/ClassAst.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/DefaultAst.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/EnvironmentAst.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/InstancevariableAst.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/MethodAst.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/MethodOrClassAst.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/NameClassAst.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/NameEnvironmentAst.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/NameInstancevariableAst.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/NameMethodAst.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/NamePackageAst.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/WarningType.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-pom" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-test" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/checkstyle" charset="ISO-8859-1" />
