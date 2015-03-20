@@ -9,9 +9,19 @@
     <file url="file://$PROJECT_DIR$/analysis-collector" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-core" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-core/License.txt" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/Singleton.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/factory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/factory/Ast.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/analysis-pom" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-test" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/checkstyle" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/checkstyle/src/test/java/hudson/plugins/checkstyle/parser/NewWarningDetectorTest.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/checkstyle/src/test/resources/hudson/plugins/checkstyle/parser/after/MoreWarningsInClass1_Refactored.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/checkstyle/src/test/resources/hudson/plugins/checkstyle/parser/after/MoreWarningsInClass2_Refactored.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/checkstyle/src/test/resources/hudson/plugins/checkstyle/parser/after/MoreWarningsInClass2_Refactored.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/checkstyle/src/test/resources/hudson/plugins/checkstyle/parser/before/MoreWarningsInClass.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/checkstyle/src/test/resources/hudson/plugins/checkstyle/parser/before/MoreWarningsInClass2.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dry" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/findbugs/library" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/findbugs/plugin" charset="ISO-8859-1" />
