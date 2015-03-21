@@ -2,7 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../acceptance-test-harness" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../analysis-model" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/analysis-collector" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/analysis-config" vcs="Git" />
