@@ -15,7 +15,7 @@
     <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/ClassAst.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/DefaultAst.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/InstanceVariableAst.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/FieldsAst.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/MethodAst.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/MethodOrClassAst.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/NameClassAst.java" charset="ISO-8859-1" />
