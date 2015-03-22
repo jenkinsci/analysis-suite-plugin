@@ -3,38 +3,12 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" defaultCharsetForPropertiesFiles="ISO-8859-1">
     <file url="file://$PROJECT_DIR$/../acceptance-test-harness" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../acceptance-test-harness/src/test/java/plugins/TaskScannerPluginTest.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../analysis-model" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../analysis-runner" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-collector" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-core" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/analysis-core/License.txt" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/analysis/util/Singleton.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/factory" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/factory/Ast.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/ClassAst.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/DefaultAst.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/FieldsAst.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/MethodAst.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/MethodOrClassAst.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/NameClassAst.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/NameEnvironmentAst.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/NameInstancevariableAst.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/NameMethodAst.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/NamePackageAst.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/SurroundingElementsAst.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/analysis-core/src/main/java/hudson/plugins/ast/specific/WarningType.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-pom" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-test" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/checkstyle" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/checkstyle/src/main/java/hudson/plugins/checkstyle/parser/CheckStyleAstFactory.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/checkstyle/src/test/java/hudson/plugins/checkstyle/parser/NewWarningDetectorTest.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/checkstyle/src/test/resources/hudson/plugins/checkstyle/parser/after/MoreWarningsInClass1_Refactored.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/checkstyle/src/test/resources/hudson/plugins/checkstyle/parser/after/MoreWarningsInClass2_Refactored.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/checkstyle/src/test/resources/hudson/plugins/checkstyle/parser/after/MoreWarningsInClass2_Refactored.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/checkstyle/src/test/resources/hudson/plugins/checkstyle/parser/before/MoreWarningsInClass.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/checkstyle/src/test/resources/hudson/plugins/checkstyle/parser/before/MoreWarningsInClass2.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dry" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/findbugs/library" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/findbugs/plugin" charset="ISO-8859-1" />
