@@ -16,7 +16,6 @@
       <module fileurl="file://$PROJECT_DIR$/pmd/pmd.iml" filepath="$PROJECT_DIR$/pmd/pmd.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/tasks.iml" filepath="$PROJECT_DIR$/tasks/tasks.iml" />
       <module fileurl="file://$PROJECT_DIR$/warnings/warnings.iml" filepath="$PROJECT_DIR$/warnings/warnings.iml" />
-      <module fileurl="file://$PROJECT_DIR$/warnings/warnings.iml" filepath="$PROJECT_DIR$/warnings/warnings.iml" />
     </modules>
   </component>
 </project>
