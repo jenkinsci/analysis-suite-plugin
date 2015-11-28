@@ -19,47 +19,26 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
-      <profile default="false" name="Annotation profile for dry" enabled="true">
+      <profile default="false" name="Annotation profile for acceptance-test-harness" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="dry" />
+        <module name="acceptance-test-harness" />
       </profile>
-      <profile default="false" name="Annotation profile for library" enabled="true">
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="library" />
       </profile>
-      <profile default="false" name="Annotation profile for findbugs" enabled="true">
+      <profile default="false" name="Annotation profile for analysis-core" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="findbugs" />
-      </profile>
-      <profile default="false" name="Annotation profile for pmd" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="pmd" />
-      </profile>
-      <profile default="false" name="Annotation profile for tasks" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="tasks" />
-      </profile>
-      <profile default="false" name="Annotation profile for warnings" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="warnings" />
+        <module name="analysis-core" />
       </profile>
       <profile default="false" name="Annotation profile for analysis-collector" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -68,19 +47,33 @@
         <processorPath useClasspath="true" />
         <module name="analysis-collector" />
       </profile>
-      <profile default="false" name="Annotation profile for acceptance-test-harness" enabled="true">
+      <profile default="false" name="Annotation profile for pmd" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="acceptance-test-harness" />
+        <module name="pmd" />
       </profile>
-      <profile default="false" name="Annotation profile for analysis-core" enabled="true">
+      <profile default="false" name="Annotation profile for findbugs" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="analysis-core" />
+        <module name="findbugs" />
+      </profile>
+      <profile default="false" name="Annotation profile for warnings" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="warnings" />
+      </profile>
+      <profile default="false" name="Annotation profile for dry" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="dry" />
       </profile>
       <profile default="false" name="Annotation profile for analysis-test" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -95,6 +88,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="checkstyle" />
+      </profile>
+      <profile default="false" name="Annotation profile for tasks" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="tasks" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.6">
