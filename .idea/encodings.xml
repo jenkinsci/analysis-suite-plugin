@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/../acceptance-test-harness" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../acceptance-test-harness/src/test/java/plugins/TaskScannerPluginTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../acceptance-test-harness/src/test/resources/warnings_plugin/jenkins-32150" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../analysis-model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-collector" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-core" charset="ISO-8859-1" />
