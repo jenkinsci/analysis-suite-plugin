@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="Javac" />
-    <resourceExtensions />
     <wildcardResourcePatterns>
       <entry name="?*.properties" />
       <entry name="?*.xml" />
@@ -16,18 +14,13 @@
       <entry name="?*.ftl" />
     </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
-        <processorPath useClasspath="true" />
-      </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+      <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
         <module name="acceptance-test-harness" />
         <module name="analysis-collector" />
         <module name="analysis-core" />
-        <module name="analysis-model" />
         <module name="analysis-test" />
         <module name="checkstyle" />
         <module name="dry" />
@@ -39,7 +32,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.6">
-      <module name="acceptance-test-harness" target="1.7" />
+      <module name="acceptance-test-harness" target="1.8" />
       <module name="analysis-collector" target="1.6" />
       <module name="analysis-core" target="1.6" />
       <module name="analysis-model" target="1.6" />
