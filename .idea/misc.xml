@@ -38,6 +38,11 @@
         <option value="$PROJECT_DIR$/findbugs/pom.xml" />
       </set>
     </option>
+    <option name="ignoredPathMasks">
+      <list>
+        <option value="jenkins*home" />
+      </list>
+    </option>
   </component>
   <component name="PDMPlugin">
     <option name="skipTestSources" value="false" />
