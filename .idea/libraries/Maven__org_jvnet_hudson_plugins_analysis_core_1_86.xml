@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Maven: org.jvnet.hudson.plugins:analysis-core:1.86">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/hudson/plugins/analysis-core/1.86/analysis-core-1.86.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/analysis-core/analysis-core-1.86-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/hudson/plugins/analysis-core/1.86/analysis-core-1.86-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/analysis-core/analysis-core-1.86-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/hudson/plugins/analysis-core/1.86/analysis-core-1.86-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
