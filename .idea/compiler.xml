@@ -18,7 +18,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="acceptance-test-harness" />
         <module name="analysis-collector" />
         <module name="analysis-core" />
         <module name="analysis-core (1)" />

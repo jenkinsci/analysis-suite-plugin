@@ -29,7 +29,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../acceptance-test-harness/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
