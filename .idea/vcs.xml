@@ -2,5 +2,15 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../analysis-suite-plugin/analysis-collector" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../analysis-suite-plugin/analysis-config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../analysis-suite-plugin/analysis-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../analysis-suite-plugin/analysis-pom" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../analysis-suite-plugin/analysis-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../analysis-suite-plugin/checkstyle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../analysis-suite-plugin/dry" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../analysis-suite-plugin/pmd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../analysis-suite-plugin/tasks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../analysis-suite-plugin/warnings" vcs="Git" />
   </component>
 </project>
