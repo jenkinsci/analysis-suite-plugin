@@ -29,17 +29,17 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../analysis-suite-plugin/analysis-pom/pom.xml" />
-        <option value="$PROJECT_DIR$/../analysis-suite-plugin/analysis-collector/pom.xml" />
-        <option value="$PROJECT_DIR$/../analysis-suite-plugin/analysis-test/pom.xml" />
-        <option value="$PROJECT_DIR$/../analysis-suite-plugin/analysis-config/pom.xml" />
-        <option value="$PROJECT_DIR$/../analysis-suite-plugin/checkstyle/pom.xml" />
-        <option value="$PROJECT_DIR$/../analysis-suite-plugin/dry/pom.xml" />
-        <option value="$PROJECT_DIR$/../analysis-suite-plugin/findbugs/plugin/pom.xml" />
-        <option value="$PROJECT_DIR$/../analysis-suite-plugin/pmd/pom.xml" />
-        <option value="$PROJECT_DIR$/../analysis-suite-plugin/tasks/pom.xml" />
-        <option value="$PROJECT_DIR$/../analysis-suite-plugin/warnings/pom.xml" />
-        <option value="$PROJECT_DIR$/../analysis-suite-plugin/analysis-core/pom.xml" />
+        <option value="$PROJECT_DIR$/../analysis-pom-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../analysis-collector-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../analysis-test-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../analysis-config-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../checkstyle-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../dry-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../findbugs-plugin/plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../pmd-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../tasks-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../warnings-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../analysis-core-plugin/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -53,9 +53,6 @@
         <option value="jenkins*home" />
       </list>
     </option>
-  </component>
-  <component name="PDMPlugin">
-    <option name="skipTestSources" value="false" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

@@ -14,16 +14,16 @@
   <version>1.0-SNAPSHOT</version>
 
   <modules>
-    <module>analysis-pom</module>
-    <module>analysis-core</module>
-    <module>analysis-test</module>
-    <module>checkstyle</module>
-    <module>dry</module>
-    <module>findbugs</module>
-    <module>pmd</module>
-    <module>tasks</module>
-    <module>warnings</module>
-    <module>analysis-collector</module>
+    <module>../analysis-pom-plugin</module>
+    <module>../analysis-core-plugin</module>
+    <module>../analysis-test-plugin</module>
+    <module>../checkstyle-plugin</module>
+    <module>../dry-plugin</module>
+    <module>../findbugs-plugin/plugin</module>
+    <module>../pmd-plugin</module>
+    <module>../tasks-plugin</module>
+    <module>../warnings-plugin</module>
+    <module>../analysis-collector-plugin</module>
   </modules>
 
   <repositories>

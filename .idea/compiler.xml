@@ -25,7 +25,6 @@
         <module name="checkstyle" />
         <module name="dry" />
         <module name="findbugs" />
-        <module name="library" />
         <module name="pmd" />
         <module name="tasks" />
         <module name="warnings" />

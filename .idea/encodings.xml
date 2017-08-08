@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" defaultCharsetForPropertiesFiles="ISO-8859-1">
-    <file url="file://$PROJECT_DIR$/../acceptance-test-harness" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../acceptance-test-harness/src/test/java/plugins/TaskScannerPluginTest.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../acceptance-test-harness/src/test/resources/warnings_plugin/jenkins-32150" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../analysis-collector-plugin" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../analysis-config-plugin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../analysis-core-plugin" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/../analysis-model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/core/AbstractAnnotationParser.java" charset="ISO-8859-1" />
@@ -66,18 +65,16 @@
     <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/pmd/parser/otherfile.xml" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/pmd/parser/pmd.xml" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/pmd/parser/warning-message-with-dot.xml" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../analysis-pom-plugin" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-suite-plugin/analysis-collector" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-suite-plugin/analysis-config" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../analysis-suite-plugin/analysis-core" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-suite-plugin/analysis-pom" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-suite-plugin/analysis-test" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-suite-plugin/checkstyle" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-suite-plugin/dry" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-suite-plugin/findbugs/plugin" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-suite-plugin/pmd" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-suite-plugin/tasks" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-suite-plugin/warnings" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../analysis-test-plugin" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../checkstyle-plugin" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../dry-plugin" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../findbugs-plugin/library" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../findbugs-plugin/plugin" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../pmd-plugin" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../tasks-plugin" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../warnings-plugin" charset="ISO-8859-1" />
     <file url="PROJECT" charset="ISO-8859-1" />
   </component>
 </project>
