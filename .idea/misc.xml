@@ -30,14 +30,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../analysis-pom-plugin/pom.xml" />
-        <option value="$PROJECT_DIR$/../analysis-collector-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/../analysis-test-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/../analysis-config-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/../checkstyle-plugin/pom.xml" />
-        <option value="$PROJECT_DIR$/../dry-plugin/pom.xml" />
-        <option value="$PROJECT_DIR$/../findbugs-plugin/plugin/pom.xml" />
-        <option value="$PROJECT_DIR$/../pmd-plugin/pom.xml" />
-        <option value="$PROJECT_DIR$/../tasks-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/../warnings-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/../analysis-core-plugin/pom.xml" />
       </list>

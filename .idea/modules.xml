@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../analysis-collector-plugin/analysis-collector.iml" filepath="$PROJECT_DIR$/../analysis-collector-plugin/analysis-collector.iml" />
       <module fileurl="file://$PROJECT_DIR$/../analysis-config-plugin/analysis-config.iml" filepath="$PROJECT_DIR$/../analysis-config-plugin/analysis-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/../analysis-core-plugin/analysis-core.iml" filepath="$PROJECT_DIR$/../analysis-core-plugin/analysis-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/../analysis-pom-plugin/analysis-pom.iml" filepath="$PROJECT_DIR$/../analysis-pom-plugin/analysis-pom.iml" />
       <module fileurl="file://$PROJECT_DIR$/analysis-suite.iml" filepath="$PROJECT_DIR$/analysis-suite.iml" />
       <module fileurl="file://$PROJECT_DIR$/../analysis-test-plugin/analysis-test.iml" filepath="$PROJECT_DIR$/../analysis-test-plugin/analysis-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/../checkstyle-plugin/checkstyle.iml" filepath="$PROJECT_DIR$/../checkstyle-plugin/checkstyle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../dry-plugin/dry.iml" filepath="$PROJECT_DIR$/../dry-plugin/dry.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../findbugs-plugin/plugin/findbugs.iml" filepath="$PROJECT_DIR$/../findbugs-plugin/plugin/findbugs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../pmd-plugin/pmd.iml" filepath="$PROJECT_DIR$/../pmd-plugin/pmd.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../tasks-plugin/tasks.iml" filepath="$PROJECT_DIR$/../tasks-plugin/tasks.iml" />
       <module fileurl="file://$PROJECT_DIR$/../warnings-plugin/warnings.iml" filepath="$PROJECT_DIR$/../warnings-plugin/warnings.iml" />
     </modules>
   </component>

@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/../analysis-collector-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../analysis-config-plugin/" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../analysis-core-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../analysis-pom-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../analysis-test-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../checkstyle-plugin" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../dry-plugin" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../pmd-plugin" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../tasks-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../warnings-plugin" vcs="Git" />
   </component>
 </project>

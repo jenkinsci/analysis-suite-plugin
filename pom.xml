@@ -18,12 +18,7 @@
     <module>../analysis-core-plugin</module>
     <module>../analysis-test-plugin</module>
     <module>../checkstyle-plugin</module>
-    <module>../dry-plugin</module>
-    <module>../findbugs-plugin/plugin</module>
-    <module>../pmd-plugin</module>
-    <module>../tasks-plugin</module>
     <module>../warnings-plugin</module>
-    <module>../analysis-collector-plugin</module>
   </modules>
 
   <repositories>
