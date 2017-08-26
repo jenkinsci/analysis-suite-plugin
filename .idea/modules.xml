@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/analysis-suite.iml" filepath="$PROJECT_DIR$/analysis-suite.iml" />
       <module fileurl="file://$PROJECT_DIR$/../analysis-test-plugin/analysis-test.iml" filepath="$PROJECT_DIR$/../analysis-test-plugin/analysis-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/../checkstyle-plugin/checkstyle.iml" filepath="$PROJECT_DIR$/../checkstyle-plugin/checkstyle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ui-samples-plugin/ui-samples-plugin.iml" filepath="$PROJECT_DIR$/../../ui-samples-plugin/ui-samples-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../warnings-plugin/warnings.iml" filepath="$PROJECT_DIR$/../warnings-plugin/warnings.iml" />
     </modules>
   </component>

@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$/../analysis-collector-plugin" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/../analysis-config-plugin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../analysis-core-plugin" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../analysis-core-plugin/src/main/resources/io/jenkins/plugins/analysis/core/steps/CheckStyleParser/config.jelly" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../analysis-core-plugin/src/main/resources/io/jenkins/plugins/analysis/core/steps/PmdParser/config.jelly" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../analysis-model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/core/AbstractAnnotationParser.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/core/AnnotationDifferencer.java" charset="ISO-8859-1" />
@@ -75,6 +77,7 @@
     <file url="file://$PROJECT_DIR$/../pmd-plugin" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/../tasks-plugin" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/../warnings-plugin" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../../ui-samples-plugin" charset="UTF-8" />
     <file url="PROJECT" charset="ISO-8859-1" />
   </component>
 </project>
