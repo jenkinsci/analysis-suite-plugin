@@ -35,7 +35,7 @@
         <option value="$PROJECT_DIR$/../checkstyle-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/../warnings-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/../analysis-core-plugin/pom.xml" />
-        <option value="$PROJECT_DIR$/../../ui-samples-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../analysis-collector-plugin/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

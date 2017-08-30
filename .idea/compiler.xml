@@ -18,11 +18,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="analysis-collector" />
         <module name="analysis-config" />
         <module name="analysis-core" />
         <module name="analysis-test" />
         <module name="checkstyle" />
-        <module name="ui-samples-plugin" />
         <module name="warnings" />
       </profile>
     </annotationProcessing>
