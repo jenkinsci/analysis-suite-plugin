@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../analysis-collector-plugin/analysis-collector.iml" filepath="$PROJECT_DIR$/../analysis-collector-plugin/analysis-collector.iml" />
       <module fileurl="file://$PROJECT_DIR$/../analysis-config-plugin/analysis-config.iml" filepath="$PROJECT_DIR$/../analysis-config-plugin/analysis-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/../analysis-core-plugin/analysis-core.iml" filepath="$PROJECT_DIR$/../analysis-core-plugin/analysis-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/../analysis-pom-plugin/analysis-pom.iml" filepath="$PROJECT_DIR$/../analysis-pom-plugin/analysis-pom.iml" />
