@@ -31,7 +31,14 @@
             <package name="hudson" withSubpackages="true" static="false" />
           </value>
         </option>
+        <option name="JD_ADD_BLANK_AFTER_PARM_COMMENTS" value="true" />
+        <option name="JD_KEEP_INVALID_TAGS" value="false" />
         <option name="JD_DO_NOT_WRAP_ONE_LINE_COMMENTS" value="true" />
+        <option name="JD_KEEP_EMPTY_PARAMETER" value="false" />
+        <option name="JD_KEEP_EMPTY_EXCEPTION" value="false" />
+        <option name="JD_KEEP_EMPTY_RETURN" value="false" />
+        <option name="JD_PARAM_DESCRIPTION_ON_NEW_LINE" value="true" />
+        <option name="JD_INDENT_ON_CONTINUATION" value="true" />
         <option name="WRAP_COMMENTS" value="true" />
         <JavaCodeStyleSettings>
           <option name="CLASS_NAMES_IN_JAVADOC" value="3" />
