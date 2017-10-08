@@ -6,9 +6,12 @@
     <file url="file://$PROJECT_DIR$/../analysis-core-plugin/README.md" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../analysis-pom-plugin" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/.idea/inspectionProfiles/Ullrich_Hafner.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../analysis-test-plugin" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/../checkstyle-plugin" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/../warnings-plugin" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../../codingstyle" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../ui-samples-plugin" charset="UTF-8" />
     <file url="PROJECT" charset="ISO-8859-1" />
   </component>
