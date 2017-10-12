@@ -13,6 +13,8 @@
     <module>../analysis-core-plugin</module>
     <module>../analysis-test-plugin</module>
     <module>../checkstyle-plugin</module>
+    <module>../pmd-plugin</module>
+    <module>../findbugs-plugin</module>
     <module>../warnings-plugin</module>
   </modules>
 
