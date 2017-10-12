@@ -10,6 +10,7 @@
 
   <modules>
     <module>../analysis-pom-plugin</module>
+    <module>../analysis-config-plugin</module>
     <module>../analysis-core-plugin</module>
     <module>../analysis-test-plugin</module>
     <module>../checkstyle-plugin</module>

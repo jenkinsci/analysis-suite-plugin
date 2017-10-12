@@ -7,7 +7,7 @@ project overall, check out https://jenkins.io/participate/.
  
 ## Getting started
 
-1. Fork the repository on GitHub.
+1. Fork the required repositories on GitHub. See [Plug-in Structure](#plug-in-structure) for details.
 2. Clone the forked repository to your machine.
 3. Install the development tools. In order to contribute to Jenkins' Static Analysis Suite, you need the following tools:
    * Java Development Kit (JDK) 8.
@@ -15,6 +15,12 @@ project overall, check out https://jenkins.io/participate/.
    * Any IDE which supports importing Maven projects.
 4. Setup your development environment as described in 
 [Preparing for Plugin Development](https://jenkins.io/doc/developer/tutorial/prepare/).
+
+## Plug-in Structure
+
+Common functionality for all static analysis plug-ins is provided by the analysis-core plugin.
+So if you are planning to change something it might be useful to clone the 
+[analysis-core plugin](https://github.com/jenkinsci/analysis-core-plugin/) as well.
 
 ## Coding Guidelines
 
