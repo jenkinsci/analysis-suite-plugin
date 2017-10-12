@@ -10,6 +10,9 @@
     <file url="file://$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../analysis-test-plugin" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/../checkstyle-plugin" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../findbugs-plugin/library" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../findbugs-plugin/plugin" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../pmd-plugin" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/../warnings-plugin" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/../../codingstyle" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../ui-samples-plugin" charset="UTF-8" />
