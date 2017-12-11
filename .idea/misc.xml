@@ -43,10 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="PDMPlugin">
-    <option name="skipTestSources" value="false" />
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="false" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="RegexUtilComponent" text="aaa.class: warning: Cannot find annotation method 'xxx()' in type 'yyyy': class file for fully.qualified.ClassName not found&#10;&#10;" flags="0" regex="(.*class)\s*:\s*warning.*:\s*(.*)" mode="0" />

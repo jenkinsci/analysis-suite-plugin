@@ -4,72 +4,12 @@
     <file url="file://$PROJECT_DIR$/../acceptance-test-harness" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../acceptance-test-harness/src/test/java/plugins/TaskScannerPluginTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../acceptance-test-harness/src/test/resources/warnings_plugin/jenkins-32150" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../acceptance-test-harness/src/test/resources/warnings_plugin/jenkins-36132/PCLint.txt" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/../analysis-core-plugin" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/../analysis-model" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/core/AbstractAnnotationParser.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/core/AnnotationDifferencer.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/core/AnnotationParser.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/core/ParserResult.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/util/ContextHashCode.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/util/model/AbstractAnnotation.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/util/model/AnnotationContainer.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/util/model/AnnotationProvider.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/util/model/DefaultAnnotationContainer.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/util/model/FileAnnotation.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/util/model/JavaPackage.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/util/model/JavaProject.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/util/model/LineRange.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/util/model/LineRangeList.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/util/model/MavenModule.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/util/model/Priority.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/analysis/util/model/WorkspaceFile.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/checkstyle/parser/CheckStyle.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/checkstyle/parser/CheckStyleParser.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/checkstyle/parser/Error.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/checkstyle/parser/File.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/checkstyle/parser/Warning.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/checkstyle/rules/CheckStyleRules.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/checkstyle/rules/Rule.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/checkstyle/rules/Topic.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/checkstyle/rules/TopicRule.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/pmd/parser/Bug.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/pmd/parser/File.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/pmd/parser/Pmd.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/pmd/parser/PmdMessages.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/pmd/parser/PmdParser.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/main/java/hudson/plugins/pmd/parser/Violation.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/java/hudson/plugins/analysis/util/model/AbstractAnnotationTest.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/java/hudson/plugins/analysis/util/model/LineRangeListTest.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/java/hudson/plugins/analysis/util/model/WorkspaceFileTest.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/java/hudson/plugins/checkstyle/parser/CheckStyleParserTest.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/java/hudson/plugins/pmd/parser/PmdMessagesTest.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/java/hudson/plugins/pmd/parser/PmdParserTest.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/checkstyle/parser/checkstyle-result-build1.xml" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/checkstyle/parser/checkstyle-result-build2.xml" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/checkstyle/parser/checkstyle-result-build3.xml" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/checkstyle/parser/checkstyle-result-build4.xml" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/checkstyle/parser/checkstyle.xml" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/checkstyle/parser/issue19122.xml" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/checkstyle/parser/issue25511.xml" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/checkstyle/parser/parser.jelly" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/checkstyle/parser/parser.properties" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/checkstyle/parser/parser_de.properties" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/checkstyle/parser/parser_ja.properties" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/checkstyle/parser/project.ser" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/checkstyle/parser/project.ser.xml" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/checkstyle/parser/scalastyle-output.xml" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/checkstyle/parser/taglib" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/pmd/parser/4-pmd-warnings.xml" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/pmd/parser/empty.xml" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/pmd/parser/equals-test.xml" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/pmd/parser/issue12801.xml" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/pmd/parser/otherfile.xml" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/pmd/parser/pmd.xml" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/../analysis-model/src/test/resources/hudson/plugins/pmd/parser/warning-message-with-dot.xml" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-collector" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-core" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/analysis-core/.travis.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/analysis-pom" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-test" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/checkstyle" charset="ISO-8859-1" />
