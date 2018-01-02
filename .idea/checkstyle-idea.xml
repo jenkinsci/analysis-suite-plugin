@@ -7,8 +7,7 @@
         <entry key="checkstyle-version" value="8.2" />
         <entry key="location-0" value="BUNDLED:(bundled):Sun Checks" />
         <entry key="location-1" value="BUNDLED:(bundled):Google Checks" />
-        <entry key="location-2" value="LOCAL_FILE:/Users/hafner/Development/git/codingstyle/etc/checkstyle-configuration.xml:Ulli's Checkstyle Configuration" />
-        <entry key="location-3" value="PROJECT_RELATIVE:$PRJ_DIR$/../analysis-config-plugin/etc/checkstyle-configuration.xml:Ullrich Hafner's Checkstyle Configuration" />
+        <entry key="location-2" value="PROJECT_RELATIVE:$PRJ_DIR$/../analysis-config-plugin/etc/checkstyle-configuration.xml:Ullrich Hafner's Checkstyle Configuration" />
         <entry key="scan-before-checkin" value="false" />
         <entry key="scanscope" value="JavaOnlyWithTests" />
         <entry key="suppress-errors" value="false" />
