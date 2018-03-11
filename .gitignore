@@ -4,8 +4,8 @@ target
 .project
 .settings
 
-analysis-config-plugin
-analysis-core-plugin
-analysis-pom-plugin
+analysis-config
+analysis-core
+analysis-pom
 analysis-model
-warnings-plugin
+warnings
