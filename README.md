@@ -21,20 +21,20 @@ following steps.
 1. Run the script `clone.sh`. This basically checks out all modules from GitHub using the following commands 
 (Note that you will need a fork of the GitHub modules if you are planning to submit a PR):
 ```
-git clone -b master git@github.com:jenkinsci/analysis-model.git
-git clone -b 3.0 git@github.com:jenkinsci/analysis-config-plugin.git
-git clone -b 3.0 git@github.com:jenkinsci/analysis-pom-plugin.git
-git clone -b 3.0 git@github.com:jenkinsci/analysis-core-plugin.git
-git clone -b 3.0 git@github.com:jenkinsci/warnings-plugin.git
+git clone -b master git@github.com:jenkinsci/analysis-model.git analysis-mode
+git clone -b 3.0 git@github.com:jenkinsci/analysis-config-plugin.git analysis-config
+git clone -b 3.0 git@github.com:jenkinsci/analysis-pom-plugin.git analysis-pom
+git clone -b 3.0 git@github.com:jenkinsci/analysis-core-plugin.git analysis-core
+git clone -b 3.0 git@github.com:jenkinsci/warnings-plugin.git warnings-plugin
 ```
 2. Verify that your directory looks like this:
 ```
 -rw-r--r--   1 hafner  staff   5,0K 12 Okt 17:10 CONTRIBUTING.md
 -rw-r--r--   1 hafner  staff   2,9K 11 Mär 16:51 README.md
-drwxr-xr-x  11 hafner  staff   352B 11 Mär 16:48 analysis-config-plugin
-drwxr-xr-x  23 hafner  staff   736B 11 Mär 16:49 analysis-core-plugin
+drwxr-xr-x  11 hafner  staff   352B 11 Mär 16:48 analysis-config
+drwxr-xr-x  23 hafner  staff   736B 11 Mär 16:49 analysis-core
 drwxr-xr-x  17 hafner  staff   544B 11 Mär 16:47 analysis-model
-drwxr-xr-x   8 hafner  staff   256B 11 Mär 16:48 analysis-pom-plugin
+drwxr-xr-x   8 hafner  staff   256B 11 Mär 16:48 analysis-pom
 -rw-r--r--   1 hafner  staff   574B 11 Nov 21:32 analysis-suite.iml
 -rwxr-xr-x   1 hafner  staff   374B 11 Mär 16:47 clean.sh
 -rwxr-xr-x   1 hafner  staff   718B 11 Mär 16:41 clone.sh
@@ -46,7 +46,7 @@ drwxr-xr-x   8 hafner  staff   256B 11 Mär 16:48 analysis-pom-plugin
 -rwxr-xr-x   1 hafner  staff    48B  3 Okt 14:25 pull.sh
 -rwxr-xr-x   1 hafner  staff    48B  3 Okt 14:25 push.sh
 -rwxr-xr-x   1 hafner  staff   386B 11 Mär 16:51 skip.sh
-drwxr-xr-x  16 hafner  staff   512B 11 Mär 16:50 warnings-plugin
+drwxr-xr-x  16 hafner  staff   512B 11 Mär 16:50 warnings
 ```
 3. Verify the installation by running Maven using the command `mvn verify`. The build will require some time since 
 all unit and integration tests are started. The successful output of the command should look like:
@@ -59,18 +59,19 @@ all unit and integration tests are started. The successful output of the command
 [INFO] Static Analysis Plug-ins Parent POM ................ SUCCESS [ 20.767 s]
 [INFO] Static Analysis Utilities .......................... SUCCESS [02:06 min]
 [INFO] Warnings Plug-in ................................... SUCCESS [08:03 min]
-[INFO] Static Analysis Plug-ins ........................... SUCCESS [  0.012 s]
+[INFO] Jenkins Static Analysis Suite ...................... SUCCESS [  0.012 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
 ```
 4. Start IntelliJ and use the `Open...` menu.
-5. Select the module 'analysis-suite' and press `Open`
-    1. If IntelliJ reports 'Unmanaged POM file found': activate the Option 'Manage POM'
-    2. If IntelliJ reports 'Maven Projects found': activate the Option 'Auto Import Maven Projects'
-    3. Verify that the modules structure looks like the filesystem structure and no module is missing.
-    4. Select the module 'analysis-model' and press `Run All Tests`
-    5. If IntelliJ reports 'Project SDK not set': set the SDK to a Java 8 JDK on your machine
-    6. Additionally set the Project Language Level to Java 8
+5. Select the top level folder 'analysis-suite' and press `Open`
+    1. If IntelliJ reports 'Non-managed pom.xml file found': Select the option 'Add as Maven Project'
+    2. If IntelliJ reports 'Maven projects need to be imported': Select the Option 'Enable Auto-Import'
+    3. If IntelliJ reports 'Unregistered VCS roots detected': select 'Add roots'
+    4. Verify that the modules structure looks like the filesystem structure and no module is missing.
+    5. Select the module 'analysis-model' and press `Run All Tests`
+    6. If IntelliJ reports 'Project SDK not set': set the SDK to a Java 8 JDK on your machine
+    7. Additionally set the Project Language Level to Java 8
 6. Select the module 'analysis-core' and press `Run All Tests`
 7. Select the module 'warnings' and press `Run All Tests`
