@@ -10,10 +10,10 @@
 
   <modules>
     <module>analysis-model</module>
-    <module>analysis-pom-plugin</module>
-    <module>analysis-config-plugin</module>
-    <module>analysis-core-plugin</module>
-    <module>warnings-plugin</module>
+    <module>analysis-pom</module>
+    <module>analysis-config</module>
+    <module>analysis-core</module>
+    <module>warnings</module>
   </modules>
 
   <repositories>
