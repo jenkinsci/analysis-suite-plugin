@@ -1,1 +1,3 @@
-find . -type d -depth 1 -exec git -C {} pull \;
+#!/bin/sh
+
+find . -type d -depth 1 -not -path "./.*" -exec git -C '{}' pull -v \;

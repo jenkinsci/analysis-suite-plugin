@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if [[ -z "$JENKINS_HOME" ]]; then
     echo "JENKINS_HOME is not defined" 1>&2

@@ -1,1 +1,3 @@
-find . -type d -depth 1 -exec git -C {} push \;
+#!/bin/sh
+
+find . -type d -depth 1 -not -path "./.*" -exec git -C '{}' push -v \;
