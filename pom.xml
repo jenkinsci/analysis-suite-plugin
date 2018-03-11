@@ -9,12 +9,11 @@
   <version>2.0-SNAPSHOT</version>
 
   <modules>
-    <module>../../analysis-model</module>
-    <module>../analysis-pom-plugin</module>
-    <module>../analysis-config-plugin</module>
-    <module>../analysis-core-plugin</module>
-    <module>../analysis-test-plugin</module>
-    <module>../warnings-plugin</module>
+    <module>analysis-model</module>
+    <module>analysis-pom-plugin</module>
+    <module>analysis-config-plugin</module>
+    <module>analysis-core-plugin</module>
+    <module>warnings-plugin</module>
   </modules>
 
   <repositories>

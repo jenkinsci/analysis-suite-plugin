@@ -3,3 +3,9 @@ target
 .classpath
 .project
 .settings
+
+analysis-config-plugin
+analysis-core-plugin
+analysis-pom-plugin
+analysis-model
+warnings-plugin
