@@ -5,13 +5,13 @@ if [[ -z "$JENKINS_HOME" ]]; then
     exit 1
 fi
 
-mvn install -DskipTests || { echo "Build failed"; exit 1; }
+mvn verify -DskipTests || { echo "Build failed"; exit 1; }
 
 rm -rf $JENKINS_HOME/plugins/analysis-core*
 rm -rf $JENKINS_HOME/plugins/warnings*
 
-cp ../analysis-core*/target/*.hpi $JENKINS_HOME/plugins
-cp ../warnings*/target/*.hpi $JENKINS_HOME/plugins
+cp -v analysis-core*/target/*.hpi $JENKINS_HOME/plugins
+cp -v warnings*/target/*.hpi $JENKINS_HOME/plugins
 
 cd $JENKINS_HOME
 ./go.sh
