@@ -30,23 +30,23 @@ git clone -b hm-edu-testing git@github.com:jenkinsci/warnings-plugin.git warning
 2. Verify that your directory looks like this:
 ```
 -rw-r--r--   1 hafner  staff   5,0K 12 Okt 17:10 CONTRIBUTING.md
--rw-r--r--   1 hafner  staff   2,9K 11 M�r 16:51 README.md
-drwxr-xr-x  11 hafner  staff   352B 11 M�r 16:48 analysis-config
-drwxr-xr-x  23 hafner  staff   736B 11 M�r 16:49 analysis-core
-drwxr-xr-x  17 hafner  staff   544B 11 M�r 16:47 analysis-model
-drwxr-xr-x   8 hafner  staff   256B 11 M�r 16:48 analysis-pom
+-rw-r--r--   1 hafner  staff   2,9K 11 Mär 16:51 README.md
+drwxr-xr-x  11 hafner  staff   352B 11 Mär 16:48 analysis-config
+drwxr-xr-x  23 hafner  staff   736B 11 Mär 16:49 analysis-core
+drwxr-xr-x  17 hafner  staff   544B 11 Mär 16:47 analysis-model
+drwxr-xr-x   8 hafner  staff   256B 11 Mär 16:48 analysis-pom
 -rw-r--r--   1 hafner  staff   574B 11 Nov 21:32 analysis-suite.iml
--rwxr-xr-x   1 hafner  staff   374B 11 M�r 16:47 clean.sh
--rwxr-xr-x   1 hafner  staff   718B 11 M�r 16:41 clone.sh
--rwxr-xr-x   1 hafner  staff   355B 11 M�r 16:51 compile.sh
+-rwxr-xr-x   1 hafner  staff   374B 11 Mär 16:47 clean.sh
+-rwxr-xr-x   1 hafner  staff   718B 11 Mär 16:41 clone.sh
+-rwxr-xr-x   1 hafner  staff   355B 11 Mär 16:51 compile.sh
 -rwxr-xr-x   1 hafner  staff    79B  3 Okt 14:25 german.sh
--rwxr-xr-x   1 hafner  staff   374B 11 M�r 16:51 go.sh
+-rwxr-xr-x   1 hafner  staff   374B 11 Mär 16:51 go.sh
 -rwxr-xr-x   1 hafner  staff    42B 17 Okt 11:25 jenkins.sh
--rw-r--r--   1 hafner  staff   1,0K 11 M�r 16:40 pom.xml
+-rw-r--r--   1 hafner  staff   1,0K 11 Mär 16:40 pom.xml
 -rwxr-xr-x   1 hafner  staff    48B  3 Okt 14:25 pull.sh
 -rwxr-xr-x   1 hafner  staff    48B  3 Okt 14:25 push.sh
--rwxr-xr-x   1 hafner  staff   386B 11 M�r 16:51 skip.sh
-drwxr-xr-x  16 hafner  staff   512B 11 M�r 16:50 warnings
+-rwxr-xr-x   1 hafner  staff   386B 11 Mär 16:51 skip.sh
+drwxr-xr-x  16 hafner  staff   512B 11 Mär 16:50 warnings
 ```
 3. Verify the installation by running Maven using the command `mvn verify`. The build will require some time since 
 all unit and integration tests are started. The successful output of the command should look like:
