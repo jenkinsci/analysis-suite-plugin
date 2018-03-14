@@ -21,11 +21,11 @@ following steps.
 1. Run the script `clone.sh`. This basically checks out all modules from GitHub using the following commands 
 (Note that you will need a fork of the GitHub modules if you are planning to submit a PR):
 ```
-git clone -b master git@github.com:jenkinsci/analysis-model.git analysis-mode
-git clone -b 3.0 git@github.com:jenkinsci/analysis-config-plugin.git analysis-config
-git clone -b 3.0 git@github.com:jenkinsci/analysis-pom-plugin.git analysis-pom
-git clone -b 3.0 git@github.com:jenkinsci/analysis-core-plugin.git analysis-core
-git clone -b 3.0 git@github.com:jenkinsci/warnings-plugin.git warnings-plugin
+git clone -b hm-edu-testing git@github.com:jenkinsci/analysis-model.git analysis-mode
+git clone -b hm-edu-testing git@github.com:jenkinsci/analysis-config-plugin.git analysis-config
+git clone -b hm-edu-testing git@github.com:jenkinsci/analysis-pom-plugin.git analysis-pom
+git clone -b hm-edu-testing git@github.com:jenkinsci/analysis-core-plugin.git analysis-core
+git clone -b hm-edu-testing git@github.com:jenkinsci/warnings-plugin.git warnings-plugin
 ```
 2. Verify that your directory looks like this:
 ```
