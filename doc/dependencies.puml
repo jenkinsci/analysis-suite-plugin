@@ -1,0 +1,27 @@
+@startuml
+skinparam componentStyle uml2
+
+frame "Libraries" {
+    [eclipse-collections]
+    [apache-jakarta]
+}
+
+frame "Jenkins" {
+    [jenkins-core]
+}
+
+
+frame "Plug-ins" {
+    [warnings-plugin] .> [analysis-core]
+    [warnings-plugin] .> [jenkins-core]
+    [warnings-plugin] ..> [analysis-model]
+    [analysis-core] ..>  [analysis-model]
+    [analysis-core] .>  [jenkins-core]
+}
+
+[analysis-model] ..> [eclipse-collections]
+[analysis-model] ..> [apache-jakarta]
+
+
+
+@enduml
