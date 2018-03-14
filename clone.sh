@@ -8,8 +8,8 @@
 
 PROTOCOL="git@github.com:"
 GIT_ORGANISATION="jenkinsci"
-MODEL_BRANCH="master"
-PLUGIN_BRANCH="3.0"
+MODEL_BRANCH="hm-edu-testing"
+PLUGIN_BRANCH="hm-edu-testing"
 
 git clone -b ${MODEL_BRANCH} ${PROTOCOL}${GIT_ORGANISATION}/analysis-model.git
 git clone -b ${PLUGIN_BRANCH} ${PROTOCOL}${GIT_ORGANISATION}/analysis-config-plugin.git analysis-config
