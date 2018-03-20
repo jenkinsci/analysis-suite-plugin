@@ -1,0 +1,9 @@
+@startuml
+skinparam componentStyle uml2
+
+[warnings-plugin] ..> [analysis-core]
+[warnings-plugin] ..> [analysis-model]
+
+[analysis-core] ..>  parse
+parse - [analysis-model]
+@enduml
