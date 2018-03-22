@@ -1,27 +1,32 @@
 @startuml
 skinparam componentStyle uml2
 
-frame "Libraries" {
-    [eclipse-collections]
-    [apache-jakarta]
+frame "Mandatory" {
+    [maven-project]
+    [structs]
+    [antisamy-markup-formatter]
+    [workflow-step-api]
+    [workflow-job]
+    [workflow-cps]
+    [pipeline-stage-step]
+    [workflow-durable-task-step]
 }
 
-frame "Jenkins" {
-    [jenkins-core]
+frame "Optional" {
+    [matrix-project]
+    [dashboard-view]
+    [token-macro]
+    [ant]
+    [git]
 }
 
-
-frame "Plug-ins" {
+frame "Analysis Suite" {
     [warnings-plugin] .> [analysis-core]
-    [warnings-plugin] .> [jenkins-core]
-    [warnings-plugin] ..> [analysis-model]
-    [analysis-core] ..>  [analysis-model]
-    [analysis-core] .>  [jenkins-core]
+    [warnings-plugin] .> [analysis-model]
+    [analysis-core] .>  [analysis-model]
 }
 
-[analysis-model] ..> [eclipse-collections]
-[analysis-model] ..> [apache-jakarta]
-
-
+[analysis-core] ..>  Mandatory
+[analysis-core] ..>  Optional
 
 @enduml
