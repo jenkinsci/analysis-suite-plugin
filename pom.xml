@@ -11,7 +11,6 @@
   <modules>
     <module>analysis-model</module>
     <module>analysis-pom</module>
-    <module>analysis-config</module>
     <module>analysis-core</module>
     <module>warnings</module>
   </modules>
