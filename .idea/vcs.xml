@@ -10,6 +10,7 @@
     <mapping directory="$PROJECT_DIR$/checkstyle" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dry" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/findbugs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/findbugs/library/target/checkout" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pmd" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tasks" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/warnings" vcs="Git" />
