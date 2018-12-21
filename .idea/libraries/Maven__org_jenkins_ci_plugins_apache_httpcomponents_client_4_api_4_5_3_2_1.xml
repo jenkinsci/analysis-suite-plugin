@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jenkins-ci.plugins:apache-httpcomponents-client-4-api:4.5.3-2.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/apache-httpcomponents-client-4-api/4.5.3-2.1/apache-httpcomponents-client-4-api-4.5.3-2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/apache-httpcomponents-client-4-api/4.5.3-2.1/apache-httpcomponents-client-4-api-4.5.3-2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/apache-httpcomponents-client-4-api/4.5.3-2.1/apache-httpcomponents-client-4-api-4.5.3-2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

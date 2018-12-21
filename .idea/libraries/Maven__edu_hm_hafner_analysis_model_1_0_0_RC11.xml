@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: edu.hm.hafner:analysis-model:1.0.0-RC11">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/edu/hm/hafner/analysis-model/1.0.0-RC11/analysis-model-1.0.0-RC11.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/edu/hm/hafner/analysis-model/1.0.0-RC11/analysis-model-1.0.0-RC11-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/edu/hm/hafner/analysis-model/1.0.0-RC11/analysis-model-1.0.0-RC11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

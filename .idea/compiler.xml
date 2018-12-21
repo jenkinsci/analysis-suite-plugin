@@ -49,7 +49,12 @@
       <module name="parent" target="1.5" />
       <module name="pmd" target="1.7" />
       <module name="tasks" target="1.7" />
-      <module name="warnings" target="1.7" />
+      <module name="warnings" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="warnings" options="-Xlint:all" />
+    </option>
   </component>
 </project>

@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../analysis-collector-plugin/analysis-collector.iml" filepath="$PROJECT_DIR$/../analysis-collector-plugin/analysis-collector.iml" />
       <module fileurl="file://$PROJECT_DIR$/analysis-collector/analysis-collector.iml" filepath="$PROJECT_DIR$/analysis-collector/analysis-collector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../analysis-core-plugin/analysis-core.iml" filepath="$PROJECT_DIR$/../analysis-core-plugin/analysis-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/analysis-core/analysis-core.iml" filepath="$PROJECT_DIR$/analysis-core/analysis-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/analysis-pom/analysis-pom.iml" filepath="$PROJECT_DIR$/analysis-pom/analysis-pom.iml" />
       <module fileurl="file://$PROJECT_DIR$/analysis-suite.iml" filepath="$PROJECT_DIR$/analysis-suite.iml" />
       <module fileurl="file://$PROJECT_DIR$/analysis-test/analysis-test.iml" filepath="$PROJECT_DIR$/analysis-test/analysis-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../checkstyle-plugin/checkstyle.iml" filepath="$PROJECT_DIR$/../checkstyle-plugin/checkstyle.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkstyle/checkstyle.iml" filepath="$PROJECT_DIR$/checkstyle/checkstyle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dry-plugin/dry.iml" filepath="$PROJECT_DIR$/../dry-plugin/dry.iml" />
       <module fileurl="file://$PROJECT_DIR$/dry/dry.iml" filepath="$PROJECT_DIR$/dry/dry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../findbugs-plugin/plugin/findbugs.iml" filepath="$PROJECT_DIR$/../findbugs-plugin/plugin/findbugs.iml" />
       <module fileurl="file://$PROJECT_DIR$/findbugs/plugin/findbugs.iml" filepath="$PROJECT_DIR$/findbugs/plugin/findbugs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../findbugs-plugin/library/library.iml" filepath="$PROJECT_DIR$/../findbugs-plugin/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../findbugs-plugin/parent.iml" filepath="$PROJECT_DIR$/../findbugs-plugin/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pmd-plugin/pmd.iml" filepath="$PROJECT_DIR$/../pmd-plugin/pmd.iml" />
       <module fileurl="file://$PROJECT_DIR$/pmd/pmd.iml" filepath="$PROJECT_DIR$/pmd/pmd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tasks-plugin/tasks.iml" filepath="$PROJECT_DIR$/../tasks-plugin/tasks.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/tasks.iml" filepath="$PROJECT_DIR$/tasks/tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../warnings-plugin/warnings.iml" filepath="$PROJECT_DIR$/../warnings-plugin/warnings.iml" />
       <module fileurl="file://$PROJECT_DIR$/warnings/warnings.iml" filepath="$PROJECT_DIR$/warnings/warnings.iml" />
     </modules>
   </component>
