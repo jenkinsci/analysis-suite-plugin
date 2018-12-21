@@ -3,6 +3,7 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="ISO-8859-1" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/../analysis-collector-plugin" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/../analysis-core-plugin" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../analysis-pom-plugin" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-collector" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/analysis-core" charset="ISO-8859-1" />

@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../analysis-collector-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../analysis-core-plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../analysis-pom-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../checkstyle-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../dry-plugin" vcs="Git" />

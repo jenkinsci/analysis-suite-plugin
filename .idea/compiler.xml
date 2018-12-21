@@ -38,7 +38,7 @@
       <module name="analysis-core (1)" target="1.5" />
       <module name="analysis-core-git" target="1.6" />
       <module name="analysis-model" target="1.6" />
-      <module name="analysis-pom" target="1.7" />
+      <module name="analysis-pom" target="1.8" />
       <module name="analysis-runner" target="1.6" />
       <module name="analysis-suite" target="1.6" />
       <module name="analysis-test" target="1.7" />
